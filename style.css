@@ -102,3 +102,19 @@ p {
   background-color: hsla(215, 7%, 47%, 0.231);
   color: hsl(25, 97%, 53%);
 }
+@media (max-width: 400px) {
+  .container--rating {
+    width: 300px;
+    height: 350px;
+  }
+  .submit--button {
+    font-family: "Overpass", sans-serif;
+    color: white;
+    margin-top: 40px;
+    width: 300px;
+  }
+  .container--thanks {
+    width: 300px;
+    height: 400px;
+  }
+}
