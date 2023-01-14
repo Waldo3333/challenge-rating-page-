@@ -1,0 +1,104 @@
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+h1 {
+  color: white;
+}
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+/*----------------------------------------------------------RATING DISPLAY*/
+
+.container--rating {
+  padding: 30px 30px 30px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+}
+
+.container--circle {
+  display: flex;
+  justify-content: space-around;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: hsla(0, 0%, 49%, 0.354);
+}
+.rating--button {
+  font-family: "Overpass", sans-serif;
+  color: hsl(216, 12%, 54%);
+  font-weight: 700;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: hsla(0, 0%, 49%, 0.354);
+  cursor: pointer;
+}
+.rating--button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.selected--rate {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+.submit--button {
+  font-family: "Overpass", sans-serif;
+  color: white;
+  margin-top: 40px;
+  width: 350px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  cursor: pointer;
+}
+.submit--button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+/*----------------------------------------------------------THANKS-YOU DISPLAY*/
+.container--thanks {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+}
+.container--thanks img {
+  margin: auto;
+  width: 50%;
+}
+
+.rate {
+  margin: auto;
+  width: 200px;
+  height: 25px;
+  border-radius: 15px;
+  padding-top: 5px;
+  background-color: hsla(215, 7%, 47%, 0.231);
+  color: hsl(25, 97%, 53%);
+}
